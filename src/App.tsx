@@ -50,7 +50,7 @@ const App: React.FC = () => {
 
 
 // code below returned error: Error: Missing required parameters: sitekey
-  const siteKey: string = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
+  const siteKey: string = import.meta.env.VITE_SITEKEY;
   console.log("printing import.meta.env:", import.meta.env);
   console.log("printing siteKey:", siteKey);
 
